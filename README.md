@@ -11,6 +11,7 @@
 ![Flowchart A6](Flowchart.jpg)
 ![Flowchart A6 V2](Flowchartimage.jpg)
 ## Pseudocode
+```
 1.Start the transaction.
 2.Set order number by checking the largest order number from the table orders and add 1
 3.Create new order for customer 145 with order number set in step 2 and set the status to "In Process".
@@ -26,5 +27,6 @@
 12.Confirm everything and officially save all the changes.
 13.Review the order details to make sure everything was added correctly.
 14.End the transaction.
+```
 ## Support for the Sales Departments' Report
 At the point of receiving payment the database design can include a decision tree to check whether the balance has been paid fully or if there is a balance. In the case of a balance we can display the balance with details of the deadline of the payment.
